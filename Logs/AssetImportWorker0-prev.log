@@ -1,0 +1,1121 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit ProfessionalEducation' Language: 'en' Physical Memory: 8058 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\2022.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/hafty_
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56416
+Successfully changed project path to: E:/hafty_
+E:/hafty_
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22140] Host "[IP] 192.168.1.92 [Port] 0 [Flags] 2 [Guid] 1976335696 [EditorId] 1976335696 [Version] 1048832 [Id] WindowsEditor(7,Hafty) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22140] Host "[IP] 192.168.1.92 [Port] 0 [Flags] 2 [Guid] 1976335696 [EditorId] 1976335696 [Version] 1048832 [Id] WindowsEditor(7,Hafty) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 457.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.25f1 (530ae0ba3889)
+[Subsystems] Discovering subsystems at path E:/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/hafty_/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     4029 MB
+    Driver:   27.20.100.9664
+Initialize mono
+Mono path[0] = 'E:/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'E:/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/2022.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.084918 seconds.
+- Loaded All Assemblies, in  5.032 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.769 seconds
+Domain Reload Profiling: 7806ms
+	BeginReloadAssembly (2087ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (117ms)
+	RebuildCommonClasses (292ms)
+	RebuildNativeTypeToScriptingClass (56ms)
+	initialDomainReloadingComplete (645ms)
+	LoadAllAssembliesAndSetupDomain (1948ms)
+		LoadAssemblies (1910ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1912ms)
+			TypeCache.Refresh (1892ms)
+				TypeCache.ScanAssembly (1784ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2780ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2145ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (63ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (1659ms)
+			ProcessInitializeOnLoadMethodAttributes (291ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (12ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.152 seconds
+Refreshing native plugins compatible for Editor in 52.02 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.826 seconds
+Domain Reload Profiling: 10979ms
+	BeginReloadAssembly (1604ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (134ms)
+	RebuildCommonClasses (220ms)
+	RebuildNativeTypeToScriptingClass (565ms)
+	initialDomainReloadingComplete (396ms)
+	LoadAllAssembliesAndSetupDomain (4366ms)
+		LoadAssemblies (4180ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1484ms)
+			TypeCache.Refresh (1369ms)
+				TypeCache.ScanAssembly (1247ms)
+			ScanForSourceGeneratedMonoScriptInfo (92ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (3827ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3114ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (297ms)
+			ProcessInitializeOnLoadAttributes (2682ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 5.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3601 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.6 MB). Loaded Objects now: 4079.
+Memory consumption went from 158.2 MB to 157.7 MB.
+Total: 83.690600 ms (FindLiveObjects: 5.723700 ms CreateObjectMapping: 0.602100 ms MarkObjects: 72.279400 ms  DeleteObjects: 5.083700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2264074.793909 seconds.
+  path: Assets/script/Movement.cs
+  artifactKey: Guid(27e2a189a70a99a4db2255aa394bd3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/Movement.cs using Guid(27e2a189a70a99a4db2255aa394bd3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892a8d590398a3289b90b5b3d1a11461') in 0.257427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 786.677796 seconds.
+  path: Assets/player
+  artifactKey: Guid(eab96eef64990ac4baf1f0749adcb5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player using Guid(eab96eef64990ac4baf1f0749adcb5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae9a821cececd6092913fe847dd81ac') in 0.173315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 86.975528 seconds.
+  path: Assets/player/Sword and Shield Pack.zip
+  artifactKey: Guid(bee4fbea5816fff4d862f2df055a9a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/Sword and Shield Pack.zip using Guid(bee4fbea5816fff4d862f2df055a9a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a554b163ba6a0f8d94c066f61807c9') in 0.809143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 440.544620 seconds.
+  path: Assets/player/sword and shield slash.fbx
+  artifactKey: Guid(21344fd638798a94fa486159852aa33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield slash.fbx using Guid(21344fd638798a94fa486159852aa33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48bfa4e2cde63c35dce4ca73cf18727') in 1.326743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 6.263426 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_Cloud_A.prefab
+  artifactKey: Guid(ebebbcae990824a4b81d35bada1b8f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_Cloud_A.prefab using Guid(ebebbcae990824a4b81d35bada1b8f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4412643a96f65d6cf03c0eba968034c') in 2.266082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_B_Hollow.prefab
+  artifactKey: Guid(8b867d94835ae31409b5db3fe2d748b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_B_Hollow.prefab using Guid(8b867d94835ae31409b5db3fe2d748b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab03757737425ebebf8a81164e0fc0b1') in 2.304476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_DoorFrame_A.prefab
+  artifactKey: Guid(6e9b1157f3e73204ea2def54fd63efa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_DoorFrame_A.prefab using Guid(6e9b1157f3e73204ea2def54fd63efa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3646ca9cf69dff51a20c5c9e912258') in 0.679588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_EntryStairs_B.prefab
+  artifactKey: Guid(552c59e83053a674f9b39bb45d25ed16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_EntryStairs_B.prefab using Guid(552c59e83053a674f9b39bb45d25ed16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c98d4ff13242d99ad53a52e5410980f') in 0.212547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_Mountains.prefab
+  artifactKey: Guid(1cf8d894487a9be41a5878bb030025a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_Mountains.prefab using Guid(1cf8d894487a9be41a5878bb030025a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbc38ecb047ab23fd44c29bc8a4cf1b') in 0.136514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_F.prefab
+  artifactKey: Guid(07dcb0523b0516b45a76d290e8fcda1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_F.prefab using Guid(07dcb0523b0516b45a76d290e8fcda1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebfc785217d2e665cc5f327a409f2d0') in 0.328713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_G.prefab
+  artifactKey: Guid(d4b26332b1829834da1314a3c9d33bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_G.prefab using Guid(d4b26332b1829834da1314a3c9d33bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613cf7631731d3c8da2d8589cd0b7914') in 0.283821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_C.prefab
+  artifactKey: Guid(6f10cdcd2ad649a4ebba3ea93e00e5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_C.prefab using Guid(6f10cdcd2ad649a4ebba3ea93e00e5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9931738764b818139b0a2d856c49bf00') in 0.268117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_F_Hollow.prefab
+  artifactKey: Guid(0c90b9c58f9575d47bdc032d40d73794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_F_Hollow.prefab using Guid(0c90b9c58f9575d47bdc032d40d73794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5c40f4ea43cda13dca4277379d1518') in 0.148579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Door_A.prefab
+  artifactKey: Guid(7e2519f93f5650b4e809122e8671c871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Door_A.prefab using Guid(7e2519f93f5650b4e809122e8671c871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440f4301733d3f96644edbf9c3669d72') in 0.194161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_Cloud_B.prefab
+  artifactKey: Guid(d46985c54883d8e4284ddfb2b1541514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_Cloud_B.prefab using Guid(d46985c54883d8e4284ddfb2b1541514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a707e4bb395008e0db604107d0dbb6c1') in 0.146653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_C_Hollow.prefab
+  artifactKey: Guid(61953eb2331bf4f4b854d69ab3993c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_C_Hollow.prefab using Guid(61953eb2331bf4f4b854d69ab3993c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d8112191ffb67d76399a73e84bf289') in 0.226693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_E.prefab
+  artifactKey: Guid(a47b6ec1c92b43947bc2c0dee826b1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_E.prefab using Guid(a47b6ec1c92b43947bc2c0dee826b1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f135dff9e1dc01b7c287c0eec7d2200') in 0.248304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_B.prefab
+  artifactKey: Guid(c283111e3b3bcbb49a4dafc204497213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_B.prefab using Guid(c283111e3b3bcbb49a4dafc204497213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faaf6c5b7945ae971964133506d565f9') in 0.145232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_E_Hollow.prefab
+  artifactKey: Guid(fa3faec577a72964ba9c8ee73c2283c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_E_Hollow.prefab using Guid(fa3faec577a72964ba9c8ee73c2283c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827947ba6df7f387f84e56ffcf248689') in 0.232952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_D.prefab
+  artifactKey: Guid(f98f89b7c9a1c0b46a16401832df473b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_D.prefab using Guid(f98f89b7c9a1c0b46a16401832df473b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ad686cf09d72f99607a1c58775e9e9') in 0.156435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001089 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_Cloud_C.prefab
+  artifactKey: Guid(55d7ebfdf8756a842a58321a8cae01d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_Cloud_C.prefab using Guid(55d7ebfdf8756a842a58321a8cae01d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563d520ef35d73ec7e0376de336e62e1') in 0.137748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_Cloud_D.prefab
+  artifactKey: Guid(78dd1b369c546154aa79576f53105b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_Cloud_D.prefab using Guid(78dd1b369c546154aa79576f53105b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e805bd67546c94ff5b9e0eb1d83a16e7') in 0.137473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_A.prefab
+  artifactKey: Guid(1adcf757e7b5d744088a789fed03674d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_A.prefab using Guid(1adcf757e7b5d744088a789fed03674d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f858f3a0d833d00a1e37bbebb076e8cd') in 0.194467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_F.prefab
+  artifactKey: Guid(023aca4fc9b5aba4e9fa72157d226eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_F.prefab using Guid(023aca4fc9b5aba4e9fa72157d226eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3848feb4df25441561aa7194175a2f') in 0.087200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_B.prefab
+  artifactKey: Guid(b26b7fa2e29884c49af4a0eb5bb9edcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_B.prefab using Guid(b26b7fa2e29884c49af4a0eb5bb9edcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd3781a9deaf4c951722d19291b03ce') in 0.277894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Door_B.prefab
+  artifactKey: Guid(db7f87c5f09f46e4e8435a5f21b7278d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Door_B.prefab using Guid(db7f87c5f09f46e4e8435a5f21b7278d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4cc153a8a4be49340625bd752d9e3c') in 0.145406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_D.prefab
+  artifactKey: Guid(28c3d234b3cf13e4bbadc9c6e5a36d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_D.prefab using Guid(28c3d234b3cf13e4bbadc9c6e5a36d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0513c013069be127c2b8cf578fbb917e') in 0.228548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_H.prefab
+  artifactKey: Guid(5619c247481018d4596cb93aadbf562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_H.prefab using Guid(5619c247481018d4596cb93aadbf562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611457679f0148ce5d4a89d09a932a2e') in 0.128168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_A_Hollow.prefab
+  artifactKey: Guid(a619b28fd452bd944b712b375aab3f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_A_Hollow.prefab using Guid(a619b28fd452bd944b712b375aab3f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a04d79cbd32f5661d6cce77b56280cf') in 0.276381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_D_Hollow.prefab
+  artifactKey: Guid(a07d3462810417849985bd0f0a758774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_D_Hollow.prefab using Guid(a07d3462810417849985bd0f0a758774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f548ce63a0715d7d7870728de32cf5') in 0.238780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_G.prefab
+  artifactKey: Guid(5a4a460caae0b6845b8065442c680f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Backgrounds/Bgr_DistantBuilding_G.prefab using Guid(5a4a460caae0b6845b8065442c680f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616fb554a9c9a9bbf9e3db3990924541') in 0.137796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_EntryStairs_A.prefab
+  artifactKey: Guid(28ea9a926dd6f4547a886eaaf48ce631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_EntryStairs_A.prefab using Guid(28ea9a926dd6f4547a886eaaf48ce631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a8abc651341ef936a729bbde5c49d2') in 1.005103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Windowframe_Closed_B.prefab
+  artifactKey: Guid(b2dd6ff33c88ca74f9a20d89be74ef92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Windowframe_Closed_B.prefab using Guid(b2dd6ff33c88ca74f9a20d89be74ef92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fc40805e68e8391f15bb324cbba581') in 0.165107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_H.prefab
+  artifactKey: Guid(62f208f9a950f114592cfd2839c91400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_H.prefab using Guid(62f208f9a950f114592cfd2839c91400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8e4a37cc99851c57d884b32a440520') in 0.217881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Windowframe_Closed_A.prefab
+  artifactKey: Guid(9260d28b83b2e604ab1dcf232f3c8a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Windowframe_Closed_A.prefab using Guid(9260d28b83b2e604ab1dcf232f3c8a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139337a8c3ecda83584c6925f125b48e') in 0.089549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_G_Hollow.prefab
+  artifactKey: Guid(1c0757051aedea1489a92062b408ad12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Common_Window_G_Hollow.prefab using Guid(1c0757051aedea1489a92062b408ad12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e91860d3a591f4c14d9b905e871d0e') in 0.351197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_ShortColumn_A.prefab
+  artifactKey: Guid(eaa69e2636e7d404787d3f812998f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_ShortColumn_A.prefab using Guid(eaa69e2636e7d404787d3f812998f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af6395ac7b41564ec37756a9c720dc1') in 0.396192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_Slab_G.prefab
+  artifactKey: Guid(84433400f603cd540af74ead7d8ac19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_Slab_G.prefab using Guid(84433400f603cd540af74ead7d8ac19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91e6cf32672b64ee44bb954cfcdd384') in 0.288012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Dome_A.prefab
+  artifactKey: Guid(9918a3172b0dc2241a3c59e06ab35f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_Dome_A.prefab using Guid(9918a3172b0dc2241a3c59e06ab35f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f600725ff5fc2a4154c6b9fae765df72') in 1.210522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_TallColumn_A.prefab
+  artifactKey: Guid(18a922dca65836c43849ef211730a035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_TallColumn_A.prefab using Guid(18a922dca65836c43849ef211730a035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a108521c1a263638f27f4d98925acc20') in 0.240087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_Slab_C.prefab
+  artifactKey: Guid(a9f769305d71faf4a8cc007969f987f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_Slab_C.prefab using Guid(a9f769305d71faf4a8cc007969f987f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c2f6fe5b2d0dae5c5b279d33f1395a') in 0.581920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_Slab_A.prefab
+  artifactKey: Guid(34bb50ad9e7bd984c9b284cf62e91da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_Slab_A.prefab using Guid(34bb50ad9e7bd984c9b284cf62e91da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba95f7b441a714ed7adbbd371887742d') in 0.290767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Dome.prefab
+  artifactKey: Guid(05673fdf8842c6745bad2ab8ac211b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Dome.prefab using Guid(05673fdf8842c6745bad2ab8ac211b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ae9f471c86e00ec530bfdcd5d98030') in 0.262688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Extension_F.prefab
+  artifactKey: Guid(ef6d6e105848dd642a25bfe24219bf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Extension_F.prefab using Guid(ef6d6e105848dd642a25bfe24219bf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9925c113cc23056009fe80211b9476f3') in 0.805332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_FishingShack_A.prefab
+  artifactKey: Guid(566d44db659135244bb747461939124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_FishingShack_A.prefab using Guid(566d44db659135244bb747461939124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e96e9a579c559bb0d34219978ec0b2') in 0.600296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 167
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Int_Beam_A.prefab
+  artifactKey: Guid(2a80d70d9a8d0da4190bc16ec5ac0ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Int_Beam_A.prefab using Guid(2a80d70d9a8d0da4190bc16ec5ac0ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0587c7507753d552c4d087eb93bd080') in 0.289759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_DrainPipe_Assembled_B.prefab
+  artifactKey: Guid(142a9bec9cd68314eb843e4e0dc74f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_DrainPipe_Assembled_B.prefab using Guid(142a9bec9cd68314eb843e4e0dc74f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365330040d1f524f20d0ebed5923a73e') in 0.247413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Extension_E.prefab
+  artifactKey: Guid(e4c684429f183e843853e872216c8a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Extension_E.prefab using Guid(e4c684429f183e843853e872216c8a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4023171cc8db799e9711dd36fd6d3a68') in 0.465781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Int_Beam_C.prefab
+  artifactKey: Guid(87f18397a1a21a24d8cfb6e0e317da0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Int_Beam_C.prefab using Guid(87f18397a1a21a24d8cfb6e0e317da0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e54f9a0509bceee9a66976a21f9c1f') in 0.141034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_Chimney_A.prefab
+  artifactKey: Guid(11f6b43b14753604fa4c3f47557dcee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_Chimney_A.prefab using Guid(11f6b43b14753604fa4c3f47557dcee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76b8c1190672964cb178cac74782d2f') in 0.245559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.textmeshpro/package.json
+  artifactKey: Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/package.json using Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e3288d49636ffd879f61a3837ce8b4') in 0.092823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_SunRays_A.prefab
+  artifactKey: Guid(7955ffe38ecb5654c9586bb4bd7e1529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_SunRays_A.prefab using Guid(7955ffe38ecb5654c9586bb4bd7e1529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59500039dd3601deda228793792b0e2') in 0.142602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Extension_I.prefab
+  artifactKey: Guid(f21fc6438e2bea34f8e7e841a9cee935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Extension_I.prefab using Guid(f21fc6438e2bea34f8e7e841a9cee935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01369fa70c7397f377508fca5a428dd9') in 0.179363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_Chimney_B.prefab
+  artifactKey: Guid(b326a8fe753072c448140ccb582b5ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_Chimney_B.prefab using Guid(b326a8fe753072c448140ccb582b5ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9cc6ea1181cfa4371bdd077a180c51') in 0.152281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Extension_B.prefab
+  artifactKey: Guid(c2c360219c8b67e4b966aca96a8a7829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Extension_B.prefab using Guid(c2c360219c8b67e4b966aca96a8a7829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4dbccf972c7bc3b2b8145aba349e11') in 0.199071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_Column_B.prefab
+  artifactKey: Guid(105def9d0c0d7cc4ea02b55533a5935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_Column_B.prefab using Guid(105def9d0c0d7cc4ea02b55533a5935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f100af963f17f721ccbb2d362bac4773') in 0.110844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_Slab_B.prefab
+  artifactKey: Guid(5e43021558f06e84d8133b18e6650298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_Slab_B.prefab using Guid(5e43021558f06e84d8133b18e6650298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b122c258ae5199223501715afb1ec451') in 0.161641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_Slab_E.prefab
+  artifactKey: Guid(84a2913b79f3f1e4bbf32114808acfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Modules_Common/Bld_Deco_Slab_E.prefab using Guid(84a2913b79f3f1e4bbf32114808acfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05f8dbd576329bc802f1e95dd229d4d') in 0.250296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_FishingShack_B_Interior_A.prefab
+  artifactKey: Guid(a47d5a7cdb311b242bed64d10900e570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Prefabs/Buildings_Prefabbed/Bld_FishingShack_B_Interior_A.prefab using Guid(a47d5a7cdb311b242bed64d10900e570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556c48c18eb9da8833e2d4d2b34e3ca3') in 5.976870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1089
+========================================================================
+Received Import Request.
+  Time since last request: 47.244420 seconds.
+  path: Assets/player/sheath sword 1.fbx
+  artifactKey: Guid(073f00a5d81a6c847b63e4ea04dcb56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sheath sword 1.fbx using Guid(073f00a5d81a6c847b63e4ea04dcb56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32bd16929011bbf5a5f7d8aad6336f4') in 0.021949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/player/sword and shield idle (3).fbx
+  artifactKey: Guid(0076e59ea3e0bc746a389273fd4ccee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield idle (3).fbx using Guid(0076e59ea3e0bc746a389273fd4ccee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7524b747fafaa279b79495811ebc47') in 0.018463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/player/sword and shield death.fbx
+  artifactKey: Guid(8d69b711fcbebb64a971f689ae09c760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield death.fbx using Guid(8d69b711fcbebb64a971f689ae09c760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33214693d53485b30979798dbd0e5a5b') in 0.026103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/player/sword and shield jump.fbx
+  artifactKey: Guid(3a95a8eeb97e3d6468c43e3dcbb2666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield jump.fbx using Guid(3a95a8eeb97e3d6468c43e3dcbb2666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34822c951ceed6e804c284096fbf7e57') in 0.023515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/player/sword and shield run.fbx
+  artifactKey: Guid(cf638b9fc60d98744bf79ba439fb2d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield run.fbx using Guid(cf638b9fc60d98744bf79ba439fb2d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12845ae77b9326dd63e03096ea4f7ca') in 0.020338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/player/sword and shield idle (2).fbx
+  artifactKey: Guid(809b263564739b44e8bb9b3a2fd942ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield idle (2).fbx using Guid(809b263564739b44e8bb9b3a2fd942ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e9c8e22ca6e7dd3baddb11f2b242ad') in 0.028912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/player/sword and shield impact.fbx
+  artifactKey: Guid(3569347ebb06f1045a0a92dbd45ceb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield impact.fbx using Guid(3569347ebb06f1045a0a92dbd45ceb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f360c8818713eef25921fb8337e14bc8') in 0.024210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/player/sword and shield casting.fbx
+  artifactKey: Guid(cc50dd27079e0314a9c71fee2a408e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield casting.fbx using Guid(cc50dd27079e0314a9c71fee2a408e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d400b8b955ebdcabbbf0db2e6f43622') in 0.034677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/player/sword and shield crouching.fbx
+  artifactKey: Guid(086f82a85af63a34ba23e4d81f0966c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield crouching.fbx using Guid(086f82a85af63a34ba23e4d81f0966c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900e533f03a3e9a36f55e37d95ca8ffe') in 0.017473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/player/sword and shield block (2).fbx
+  artifactKey: Guid(96d04e686922935458ff5611a5c9ea23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield block (2).fbx using Guid(96d04e686922935458ff5611a5c9ea23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe317341ad31f514f51c1d5b14e51cfe') in 0.024276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/player/sword and shield power up.fbx
+  artifactKey: Guid(333b0bf0a84e3af42a6a5432902a7c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield power up.fbx using Guid(333b0bf0a84e3af42a6a5432902a7c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57792ec22a8a13ff98098c32fbdccd51') in 0.009968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/player/sword and shield crouch block.fbx
+  artifactKey: Guid(83c262c20503a1a4384aea84dc3ee6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield crouch block.fbx using Guid(83c262c20503a1a4384aea84dc3ee6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e0d312965e90d991613fd714a9afb9') in 0.020278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/player/sword and shield idle (4).fbx
+  artifactKey: Guid(3085abf34e44a8a4cb09a513accc66c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield idle (4).fbx using Guid(3085abf34e44a8a4cb09a513accc66c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154c5e5634a2bfd5c2a5357100a0a1e9') in 0.027866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/player/sword and shield run (2).fbx
+  artifactKey: Guid(3862763c453fd24459d26d76c542f9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield run (2).fbx using Guid(3862763c453fd24459d26d76c542f9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b45fb77de771deeace2abaaff01df4') in 0.015066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/player/sword and shield jump (2).fbx
+  artifactKey: Guid(a7e23e28aa0058f45b53e3061e209724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield jump (2).fbx using Guid(a7e23e28aa0058f45b53e3061e209724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f123eca494a7e2e9990f4693bb5bcddd') in 0.015087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/player/sword and shield attack (2).fbx
+  artifactKey: Guid(d57091b3d5e74dd4bba335b33a582e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield attack (2).fbx using Guid(d57091b3d5e74dd4bba335b33a582e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ca0d33cee139eecc2a356cfa19a648') in 0.010868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/player/sword and shield crouching (3).fbx
+  artifactKey: Guid(848685bfdb49d68409ae486550f2e416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield crouching (3).fbx using Guid(848685bfdb49d68409ae486550f2e416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af9b96fc614cce493747cca7afe6315') in 0.013732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/player/sword and shield casting (2).fbx
+  artifactKey: Guid(029edc3c3dae5334b877f663a4f2b197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield casting (2).fbx using Guid(029edc3c3dae5334b877f663a4f2b197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8523cba416378f8583a165a9c6c8a64e') in 0.010424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/player/sword and shield attack (3).fbx
+  artifactKey: Guid(d35fac53b9cea2f4db86f9ce6370218e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield attack (3).fbx using Guid(d35fac53b9cea2f4db86f9ce6370218e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4a448e656961e143f02fd71430cc78') in 0.018951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/player/sword and shield crouch.fbx
+  artifactKey: Guid(711c1fe9cdf1ad142a0a698e7c972189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield crouch.fbx using Guid(711c1fe9cdf1ad142a0a698e7c972189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e19f03d0d9bb6d7d5bf13a306bfc3bd') in 0.015205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/player/sword and shield 180 turn (2).fbx
+  artifactKey: Guid(e29fe64cf3b3ea14d934c7819cc65b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield 180 turn (2).fbx using Guid(e29fe64cf3b3ea14d934c7819cc65b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce144b161dc9d8d32ab4a6d1ab39147') in 0.015375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/player/sword and shield attack.fbx
+  artifactKey: Guid(43adb818c4c7b254cb008a3edd27398d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield attack.fbx using Guid(43adb818c4c7b254cb008a3edd27398d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab75034e8924f3e60eb988a179e8ca49') in 0.017157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/player/sword and shield idle.fbx
+  artifactKey: Guid(3070370d97abcd74b9a0e6099f1c9ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield idle.fbx using Guid(3070370d97abcd74b9a0e6099f1c9ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f035402910295b62698a9108bfb74ae1') in 0.013143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/player/sword and shield death (2).fbx
+  artifactKey: Guid(830cfd4b1364abe42a1b4a02aadb540b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield death (2).fbx using Guid(830cfd4b1364abe42a1b4a02aadb540b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86ca1e369c0c055eacff09ab68da69d') in 0.014574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/player/sword and shield block idle.fbx
+  artifactKey: Guid(0372bbc595fd6c1468b60463b3d1f589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield block idle.fbx using Guid(0372bbc595fd6c1468b60463b3d1f589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd630c72e35d0d514e080929d90b1d2aa') in 0.019766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/player/sword and shield crouching (2).fbx
+  artifactKey: Guid(27cb14fa7f0803e4abd5c2bb454751c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield crouching (2).fbx using Guid(27cb14fa7f0803e4abd5c2bb454751c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6233646862098d2aedd33e13a1309e36') in 0.023521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/player/sword and shield impact (2).fbx
+  artifactKey: Guid(53ccfba13882cea4fb14b24a99c6cc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield impact (2).fbx using Guid(53ccfba13882cea4fb14b24a99c6cc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648ef5b867b45347049b14930df2cd03') in 0.017419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/player/sword and shield crouch block (2).fbx
+  artifactKey: Guid(bea7a4133d6fd1e4394cb0328e988476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield crouch block (2).fbx using Guid(bea7a4133d6fd1e4394cb0328e988476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56506ab11d18ced933bc6abc116a6273') in 0.009235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/player/sword and shield 180 turn.fbx
+  artifactKey: Guid(068cd461fdad7b241a644ce9708cb847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield 180 turn.fbx using Guid(068cd461fdad7b241a644ce9708cb847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9cfea7218501023b292070ded313f0') in 0.033246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/player/sword and shield impact (3).fbx
+  artifactKey: Guid(e35ab33132baaf7489992af686b5c993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield impact (3).fbx using Guid(e35ab33132baaf7489992af686b5c993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23779a3fb31a700c69b0ae2c8c2344ae') in 0.015139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/player/sword and shield attack (4).fbx
+  artifactKey: Guid(9935a17a0be13174bb2bfbe82616fb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield attack (4).fbx using Guid(9935a17a0be13174bb2bfbe82616fb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a78f13c033f531948c0fc3f533eaf23') in 0.026712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/player/sword and shield kick.fbx
+  artifactKey: Guid(103cc09253b1b7a4a84daef0799b954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield kick.fbx using Guid(103cc09253b1b7a4a84daef0799b954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651dd2d22b4341f9185427f45f65bfb3') in 0.015867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/player/sword and shield crouch block idle.fbx
+  artifactKey: Guid(54e8e2c93b005ef44861a13a1a7ca2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield crouch block idle.fbx using Guid(54e8e2c93b005ef44861a13a1a7ca2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2762d6e9298268f0ad918cb9c0fe20') in 0.034393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/player/sword and shield block.fbx
+  artifactKey: Guid(8afbbb396a82824479ac0f888dd5cdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield block.fbx using Guid(8afbbb396a82824479ac0f888dd5cdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53db29967ad9db3b883ddb7e4d6dea98') in 0.022641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/player/sheath sword 2.fbx
+  artifactKey: Guid(2c2c098cc24034743ac32c284dffe8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sheath sword 2.fbx using Guid(2c2c098cc24034743ac32c284dffe8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980d552f8a76daa475603dc363b59fd0') in 0.017326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/player/sword and shield crouch idle.fbx
+  artifactKey: Guid(c538bba1f397cfa40a7db90481e519e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield crouch idle.fbx using Guid(c538bba1f397cfa40a7db90481e519e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202446e1607ba6ac3c2437b9bb03f8c5') in 0.012258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.375797 seconds.
+  path: Assets/player/sword and shield slash (2).fbx
+  artifactKey: Guid(0a691800603f7384884e03bb4032ee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield slash (2).fbx using Guid(0a691800603f7384884e03bb4032ee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d178b906ffd51320adad07e1c4483b') in 0.026209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/player/sword and shield turn.fbx
+  artifactKey: Guid(2f4585fd1a0a4194e85d6f9b12df83f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield turn.fbx using Guid(2f4585fd1a0a4194e85d6f9b12df83f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5bdb29749041d98ed5d07e1fc9c9b1') in 0.012559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/player/sword and shield strafe (4).fbx
+  artifactKey: Guid(ae8c8671a39b90f42981564e1caf3f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield strafe (4).fbx using Guid(ae8c8671a39b90f42981564e1caf3f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb02699dca536857c242dea60cb5815') in 0.035406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/player/sword and shield slash (3).fbx
+  artifactKey: Guid(d5bfd90e5684caa4db8c42c09fe9864c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield slash (3).fbx using Guid(d5bfd90e5684caa4db8c42c09fe9864c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f2aed5b14a0435e9ba3cf8126364fd') in 0.011113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/player/sword and shield strafe.fbx
+  artifactKey: Guid(7147fa3c2442379479ca096320be318c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield strafe.fbx using Guid(7147fa3c2442379479ca096320be318c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14333cb851e7d10df6907df0e2ad72d4') in 0.016288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/player/sword and shield walk.fbx
+  artifactKey: Guid(efc88839304ea5a449f982a67d296381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield walk.fbx using Guid(efc88839304ea5a449f982a67d296381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2633512867f0ab4c1fbfd958521f4c5') in 0.028123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/player/sword and shield strafe (2).fbx
+  artifactKey: Guid(e9bc4f9bfcae19d4b9dab4c956787c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield strafe (2).fbx using Guid(e9bc4f9bfcae19d4b9dab4c956787c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da80a00c8afe6bcd702f2f330072343b') in 0.029234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/player/sword and shield strafe (3).fbx
+  artifactKey: Guid(fe0b5172f01daea45b980352e90b2fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield strafe (3).fbx using Guid(fe0b5172f01daea45b980352e90b2fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc944a8a480863ecb7016db204d00e0f') in 0.037055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/player/sword and shield slash (5).fbx
+  artifactKey: Guid(17b0d0d190adef54da036612af6e441a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield slash (5).fbx using Guid(17b0d0d190adef54da036612af6e441a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577b5c3386ca1b32d9c1d3c01ede5c99') in 0.018202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/player/X Bot.fbx
+  artifactKey: Guid(e1b2078404bd7764fb364b034d447c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/X Bot.fbx using Guid(e1b2078404bd7764fb364b034d447c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9bf70ff2d705cefc6876b94ba6cb26') in 3.226702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/player/sword and shield slash (4).fbx
+  artifactKey: Guid(ab9c99a7a033e0f44b0ea53e2097273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield slash (4).fbx using Guid(ab9c99a7a033e0f44b0ea53e2097273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b75937d23b7143f550d5ea7dcca9f4d') in 0.033055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/player/sword and shield walk (2).fbx
+  artifactKey: Guid(2e4a3cd52181d444d9db0da8e1047c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield walk (2).fbx using Guid(2e4a3cd52181d444d9db0da8e1047c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598df5789118b3594ff90b17a099a6aa') in 0.019571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/player/sword and shield turn (2).fbx
+  artifactKey: Guid(df5ccd5904efb8540965276992f813df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player/sword and shield turn (2).fbx using Guid(df5ccd5904efb8540965276992f813df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10798c37ba77cb3f83808beb7667b4f') in 0.026091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 199.934890 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 58.008 seconds
+Refreshing native plugins compatible for Editor in 57.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 92.265 seconds
+Domain Reload Profiling: 150296ms
+	BeginReloadAssembly (14767ms)
+		ExecutionOrderSort (3ms)
+		DisableScriptedObjects (262ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (728ms)
+	RebuildCommonClasses (9555ms)
+	RebuildNativeTypeToScriptingClass (341ms)
+	initialDomainReloadingComplete (17798ms)
+	LoadAllAssembliesAndSetupDomain (15538ms)
+		LoadAssemblies (27248ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (53ms)
+	FinalizeReload (92297ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3006ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (62ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (344ms)
+			ProcessInitializeOnLoadAttributes (2417ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (14ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (59ms)
+Refreshing native plugins compatible for Editor in 43.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.5 MB). Loaded Objects now: 4128.
+Memory consumption went from 159.2 MB to 158.7 MB.
+Total: 301.556000 ms (FindLiveObjects: 34.778500 ms CreateObjectMapping: 0.560400 ms MarkObjects: 261.127700 ms  DeleteObjects: 5.086000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
